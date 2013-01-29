@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\Objects.cs" />
     <Compile Include="Code\Commands.cs" />
     <Compile Include="Code\RemoteControl.cs" />
     <Compile Include="Interface\ICommand.cs" />
