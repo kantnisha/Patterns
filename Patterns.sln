@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{C8F8756D-13EA-4C1F-A878-3A8A985C05EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Adapter\TemplateMethod.csproj", "{0D8DD26F-09D8-4E5C-976E-343850CFE08D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +51,10 @@ Global
 		{C8F8756D-13EA-4C1F-A878-3A8A985C05EE}.Debug|x86.Build.0 = Debug|x86
 		{C8F8756D-13EA-4C1F-A878-3A8A985C05EE}.Release|x86.ActiveCfg = Release|x86
 		{C8F8756D-13EA-4C1F-A878-3A8A985C05EE}.Release|x86.Build.0 = Release|x86
+		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Debug|x86.ActiveCfg = Debug|x86
+		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Debug|x86.Build.0 = Debug|x86
+		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Release|x86.ActiveCfg = Release|x86
+		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
