@@ -5,16 +5,17 @@ namespace State.Code
 {
     public class GumballMachine
     {
-        private IState _soldOutState;
-        private IState _noQuarterState;
-        private IState _hasQuarterState;
-        private IState _soldState;
-        private IState _winnerState;
+        private readonly IState _soldOutState;
+        private readonly IState _noQuarterState;
+        private readonly IState _hasQuarterState;
+        private readonly IState _soldState;
+        private readonly IState _winnerState;
 
         private IState _state;
-        private int _count = 0;
+        private int _count;
+        private string _location;
 
-        public GumballMachine(int numberGumballs)
+        public GumballMachine(int numberGumballs, string location)
         {
             _soldOutState = new SoldOutState(this);
             _noQuarterState = new NoQuarterState(this);
@@ -22,6 +23,7 @@ namespace State.Code
             _soldState = new SoldState(this);
             _winnerState = new WinnerState(this);
             _count = numberGumballs;
+            _location = location;
             if (_count > 0)
             {
                 _state = _noQuarterState;
@@ -87,6 +89,16 @@ namespace State.Code
         public int Count
         {
             get { return _count; }
+        }
+
+        public string Location
+        {
+            get { return _location; }
+        }
+
+        public IState State
+        {
+            get { return _state; }
         }
     }
 }

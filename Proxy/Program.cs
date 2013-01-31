@@ -2,21 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Proxy.Code;
 using State.Code;
 
-namespace State
+namespace Proxy
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var gm = new GumballMachine(200, "Tuta");
+            var gm = new GumballMachine(200, "I.Raskovoi 24");
+            var monitor = new GumballMonitor(gm);
 
-            for (int i = 0; i < 200; i++)
-            {
-                gm.InsertQuarter();
-                gm.TurnCrank();
-            }
+            monitor.Report();
 
             Console.ReadKey();
         }
