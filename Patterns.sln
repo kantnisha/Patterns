@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{BC19C41C-F8A3-4A2B-BA7E-8971D59F12E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{CA915C45-30E6-4793-9F38-D5AEDD673412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,6 +69,10 @@ Global
 		{BC19C41C-F8A3-4A2B-BA7E-8971D59F12E9}.Debug|x86.Build.0 = Debug|x86
 		{BC19C41C-F8A3-4A2B-BA7E-8971D59F12E9}.Release|x86.ActiveCfg = Release|x86
 		{BC19C41C-F8A3-4A2B-BA7E-8971D59F12E9}.Release|x86.Build.0 = Release|x86
+		{CA915C45-30E6-4793-9F38-D5AEDD673412}.Debug|x86.ActiveCfg = Debug|x86
+		{CA915C45-30E6-4793-9F38-D5AEDD673412}.Debug|x86.Build.0 = Debug|x86
+		{CA915C45-30E6-4793-9F38-D5AEDD673412}.Release|x86.ActiveCfg = Release|x86
+		{CA915C45-30E6-4793-9F38-D5AEDD673412}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
