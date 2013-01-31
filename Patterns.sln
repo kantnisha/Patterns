@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Adapter\TemplateMethod.csproj", "{0D8DD26F-09D8-4E5C-976E-343850CFE08D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{BCE5AF85-1EB5-4D09-BBC5-06D738CF3923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -55,6 +57,10 @@ Global
 		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Debug|x86.Build.0 = Debug|x86
 		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Release|x86.ActiveCfg = Release|x86
 		{0D8DD26F-09D8-4E5C-976E-343850CFE08D}.Release|x86.Build.0 = Release|x86
+		{BCE5AF85-1EB5-4D09-BBC5-06D738CF3923}.Debug|x86.ActiveCfg = Debug|x86
+		{BCE5AF85-1EB5-4D09-BBC5-06D738CF3923}.Debug|x86.Build.0 = Debug|x86
+		{BCE5AF85-1EB5-4D09-BBC5-06D738CF3923}.Release|x86.ActiveCfg = Release|x86
+		{BCE5AF85-1EB5-4D09-BBC5-06D738CF3923}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
